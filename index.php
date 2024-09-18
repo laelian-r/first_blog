@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "<h1>Hello world !</h1>";
+        echo "<h1>My first blog</h1>";
     ?>
     
     <script src="./main.js"></script>
