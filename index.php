@@ -29,7 +29,7 @@
         </div>
 
         <section>
-            <h2>Hello world!</h2>
+            <?php echo "<h2>Home</h2>"; ?>
         </section>
     </header>
 
