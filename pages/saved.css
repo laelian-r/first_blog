@@ -19,6 +19,7 @@ header {
 
 h1 {
     color: #c44242;
+    text-transform: uppercase;
 }
 
 .navbar {
@@ -45,11 +46,15 @@ a {
     color: #d3d3d3;
     font-size: 1.3rem;
     transition: 0.5s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a.active {
     text-decoration: underline #c44242;
-    text-underline-offset: 5px;
+    text-underline-offset: 0.5rem;
     color: white;
     font-weight: 400;
     font-size: 1.4rem;
@@ -59,6 +64,24 @@ a:hover {
     text-decoration: underline #c44242df;
     text-underline-offset: 5px;
     transition: 0.5s;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a .img-active {
+    height: 1.5rem;
+    padding-right: 0.7rem;
+    opacity: 100%;
+}
+
+a img {
+    height: 1.5rem;
+    padding-right: 0.7rem;
+    opacity: 70%;
 }
 
 ul a {
