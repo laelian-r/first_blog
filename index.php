@@ -10,27 +10,29 @@
 <body>
     <header>
         <div class="navbar">
-            <h1>My blog</h1>
+            <h2>My blog</h2>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="active"><img class="img-active" src="./assets/house-active.svg" alt="home-icon"> Homme</a>
-                    </li>
-                    <li>
-                        <a href="./pages/saved.html"><img src="./assets/heart-icon.svg" alt="saved-icon"> Saved</a>
-                    </li>
-                    <li>
-                        <a href="./pages/infos.html"><img src="./assets/info-icon.svg" alt="info-icon"> Infos</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="links-container">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#" class="active"><img class="img-active" src="./assets/house-active.svg" alt="home-icon"> Homme</a>
+                        </li>
+                        <li>
+                            <a href="./pages/saved.html"><img src="./assets/heart-icon.svg" alt="saved-icon"> Saved</a>
+                        </li>
+                        <li>
+                            <a href="./pages/infos.html"><img src="./assets/info-icon.svg" alt="info-icon"> Infos</a>
+                        </li>
+                    </ul>
+                </nav>
 
-            <a href="./pages/profile.html"><img src="./assets/user-icon.svg" alt="user-icon"> Profile</a>
+                <a href="./pages/profile.html" class="profile-link"><img src="./assets/user-icon.svg" alt="user-icon"> Profile</a>
+            </div>
         </div>
 
         <section>
-            <?php echo "<h2>Home</h2>"; ?>
+            <?php echo "<h1>Home</h1>"; ?>
         </section>
     </header>
 
