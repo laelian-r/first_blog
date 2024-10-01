@@ -35,7 +35,7 @@
                 $image = "https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg";
                 $title = "Hello world!";
                 $description = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vero mollitia, blanditiis est fugiat nisi...";
-                $profil = "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg";
+                $profil = "https://cdn.pixabay.com/photo/2024/06/24/04/05/woman-8849047_1280.jpg";
                 $username = "John Doe";
                 $date = "24/09/2024";
             ?>
